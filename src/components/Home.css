@@ -1,0 +1,53 @@
+.home_container{
+    text-align:left;
+    display: flex;
+    /* width: 80%; */
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 70px;
+    margin-top: 160px;
+    /* height: 12334px */
+}
+.big_text{
+    margin: 0;
+    padding: 0;
+    font-size:35px;
+    /* font-weight: 600; */
+    
+}
+.small_text_div{
+    margin-top: 20px;
+}
+
+.small_text{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.get_started_btn{
+    margin-top: 20px;
+    width: 150px;
+    height: 35px;
+    border-radius:30px;
+    border: none;
+    background-color: #6d5be9;
+    color: white;
+    font-weight: 600;
+}
+
+.videoBox{
+    width: 400px;
+    height: 200px;
+    margin-right: 120px;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius:10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.videoBox> *{
+    height:50px;
+    width: 50px;
+    color: rgb(44, 111, 170);
+}
